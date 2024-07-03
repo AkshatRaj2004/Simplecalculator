@@ -23,7 +23,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, deepskyblue, royalblue);
+  background: linear-gradient(135deg, rgb(67, 40, 186), rgb(67, 185, 198));
 }
 
 .calculator {
@@ -117,5 +117,3 @@ footer {
   font-size: 1.2rem;
   animation: footer 1s ease-in-out infinite alternate;
 }
-
-
