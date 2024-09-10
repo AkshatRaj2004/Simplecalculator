@@ -6,9 +6,23 @@
     <title>Simple Calculator AR</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <style>
+      /* Disable text selection */
+      body {
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+    </style>
+    <script>
+      // Disable right-click
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+    </script>
   </head>
   <body>
-
     <div class="calculator">
       <output>0</output>
 
@@ -30,14 +44,13 @@
       <button data-number>0</button>
       <button data-clear>C</button>
       <button data-delete>⌫</button>
-
-
     </div>
-  <!--Footer Design-->
-  <footer>
-    <div class="footer">
-      <p>Created by <a href="https://www.linkedin.com/in/akshatraj872//">Akshat Raj</a></p>
-    </div>
-  </footer>
+
+    <!--Footer Design-->
+    <footer>
+      <div class="footer">
+        <p>Created by <a href="https://www.linkedin.com/in/akshatraj872/">Akshat Raj</a></p>
+      </div>
+    </footer>
   </body>
 </html>
